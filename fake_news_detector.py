@@ -3,7 +3,6 @@
 import joblib
 import re
 
-# Load model and vectorizer
 model = joblib.load('C:\\Users\\bhanu\\Downloads\\fake_news_detection\\models\\ensemble_model.pkl')
 vectorizer = joblib.load('C:\\Users\\bhanu\\Downloads\\fake_news_detection\\models\\tfidf_vectorizer.pkl')
 
